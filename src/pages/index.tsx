@@ -12,9 +12,10 @@ export default function Home() {
       <main className={styles.container}>
         <section className={styles.hero}>
           <span>👏 Hey, welcome</span>
-          
+
           <h1>
-            News about the <span>React</span> world.
+            News about the <br/>
+            <span>React</span> world.
           </h1>
 
           <p>
@@ -25,7 +26,11 @@ export default function Home() {
           <SubscribeButton />
         </section>
 
-        <img src="/images/avatar.svg" alt="Girl coding" />
+        <img
+          src="/images/avatar.svg"
+          alt="Girl coding"
+          className={styles.avatar}
+        />
       </main>
     </>
   );
