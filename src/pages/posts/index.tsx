@@ -4,7 +4,7 @@ import Prismic from "@prismicio/client";
 import { GetStaticProps } from "next";
 import { getPrismicClient } from "../../services/prismic";
 import { RichText } from "prismic-dom";
-import styles from "./styles.module.scss";
+import styles from "./posts.module.scss";
 
 type Post = {
   slug: string;
